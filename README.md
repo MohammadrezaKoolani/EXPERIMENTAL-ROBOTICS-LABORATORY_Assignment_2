@@ -36,7 +36,10 @@ The aruco_ros package is a ROS wrapper for the Aruco Augmented Reality marker de
 •	Improved precision with boards of markers for enhanced tracking performance.
 •	ROS wrappers to integrate seamlessly with your ROS environment.
 
-IMAGE
+<p align="center">
+  <img src="Images-Video/aruco1.jpg" alt="Image 1 Description" width="400"/>
+  <img src="Images-Video/aruco2.png" alt="Image 2 Description" width="400"/>
+</p>
 
 
 ## rosbot_ros
