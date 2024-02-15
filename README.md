@@ -1,5 +1,12 @@
 # EXPERIMENTAL-ROBOTICS-LABORATORY_Assignment_2
 
+| **Name**  | **Surename**  |  **Student Number** |
+| ------------ | ------------ | ------------ |
+|  Shima |  Amiri Fard |   |
+|Reza   | Taleshi  |   |
+| Mohammad  |Sabouri   |   |
+| Mohammadreza  | Koolani   | S5467640  |
+
 # Overview
 This ROS package is designed to empower a mobile robot with the capability to autonomously navigate an environment, identify specific markers, and return to its initial location. Utilizing advanced planning with PDDL through ROSPlan, the robot executes a series of actions to achieve its goals efficiently and accurately.
 # ObjectivesObjectives
