@@ -164,21 +164,6 @@ include_directories(
 #  ${catkin_LIBRARIES}
  #)
 
-#target_link_libraries(go_to_wp
- #${catkin_LIBRARIES}
-#)
-
-#target_link_libraries(find_marker_action_server
- #${catkin_LIBRARIES}
-#)
-
-#target_link_libraries(find_marker_action_client
- #${catkin_LIBRARIES}
-#)
-#target_link_libraries(CV_node
- #${catkin_LIBRARIES} ${OpenCV_LIBRARIES}
-#)
-
 #############
 ## Install ##
 #############
