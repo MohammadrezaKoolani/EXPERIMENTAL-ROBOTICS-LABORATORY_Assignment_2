@@ -50,8 +50,7 @@ The rosbot_ros repository contains ROS2 packages tailored for ROSbot 2R and ROSb
 •	rosbot_gazebo: Includes launch files for the Ignition Gazebo that work with ROS2 control.
 •	rosbot_controller: Configuration for ROS2 hardware controllers specific to ROSbots.
 
-
-IMAGE
+![ENV Image](Images-Video/rosbot.jpg)
 
 ## Setting up ROSPlan
 To integrate ROSPlan into your system, open a terminal and execute the following commands:
@@ -67,7 +66,10 @@ ROSPlan is designed to be versatile, supporting various planning scenarios. It a
 ### ROSPlan Demos:
 Several demos are available in the rosplan_demos repository. More will be added over time.
 
-IMAGE
+<p align="center">
+  <img src="Images-Video/rosplan1.png" alt="Image 1 Description" width="400"/>
+  <img src="Images-Video/rosplan2.png" alt="Image 2 Description" width="400"/>
+</p>
 
 
 
@@ -81,7 +83,7 @@ For the robot to effectively navigate, you must install the ROS Navigation stack
 ### About the ROS Navigation Stack
 The ROS Navigation Stack offers a comprehensive 2D navigation solution, incorporating odometry and sensor data to safely guide a mobile robot to a target position. It processes the incoming information to generate velocity commands that navigate the robot while avoiding obstacles, ensuring smooth and safe operation of the mobile base in diverse environments. The Navigation Stack is fairly simple on a conceptual level. It takes in information from odometry and sensor streams and outputs velocity commands to send to a mobile base. Use of the Navigation Stack on an arbitrary robot, however, is a bit more complicated. As a pre-requisite for navigation stack use, the robot must be running ROS, have a tf transform tree in place, and publish sensor data using the correct ROS Message types. Also, the Navigation Stack needs to be configured for the shape and dynamics of a robot to perform at a high level. To help with this process, this manual is meant to serve as a guide to typical Navigation Stack set-up and configuration. 
 
-IMAGE
+![ENV Image](Images-Video/rosnavigat.png)
 
 ## Installing Gmapping
 To equip your robot with SLAM capabilities, proceed to install gmapping with these commands:
@@ -93,7 +95,7 @@ Once you have installed the necessary packages, compile your workspace with catk
 
 **Note**: Should you encounter any issues during compilation, particularly with the amcl package conflicting with gmapping, you can resolve this by removing the amcl package from your navigation stack and rerunning the catkin_make command. 
 
-IMAGE
+![ENV Image](Images-Video/gmapping.png)
 
 To integrate the project into your ROS environment, clone the repository into the src folder of your workspace with the following command:
 
