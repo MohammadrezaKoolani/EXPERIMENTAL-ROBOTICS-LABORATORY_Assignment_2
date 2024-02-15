@@ -194,6 +194,7 @@ This script highlights the robot's capability to navigate autonomously to specif
 
 # Pseudocode for Autonomous Robot Navigation and Marker Identification
 
+```python
 # Initialize ROSPlan with PDDL files
 initialize_rosplan_with_pddl()
 
@@ -243,9 +244,11 @@ if goal_achieved:
                 go_back_to_start()
                 break  # End the loop if all markers are found
 
-# If any step fails, an error should be raised
-else:
+ #If any step fails, an error should be raised
+ else:
     raise Exception("Failed to achieve the goal")
 
-# End of the operation
-end()
+ #End of the operation
+ end()
+
+```
