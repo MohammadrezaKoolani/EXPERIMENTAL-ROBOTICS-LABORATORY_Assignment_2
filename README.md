@@ -2,14 +2,15 @@
 
 | **Name**  | **Surename**  |  **Student Number** |
 | ------------ | ------------ | ------------ |
-|  Shima |  Amiri Fard |   |
+| Mohammadreza  | Koolani   | S5467640  |
+|  Shima |  Amiri Fard | S5269794  |
 |Reza   | Taleshi  |   |
 | Mohammad  |Sabouri   |   |
-| Mohammadreza  | Koolani   | S5467640  |
+
 
 # Overview
 This ROS package is designed to empower a mobile robot with the capability to autonomously navigate an environment, identify specific markers, and return to its initial location. Utilizing advanced planning with PDDL through ROSPlan, the robot executes a series of actions to achieve its goals efficiently and accurately.
-# ObjectivesObjectives
+# Objectives
 The primary objectives of this project include:
 •	Autonomous Navigation: Employing sensor data and mapping techniques to navigate without human intervention.
 •	Marker Identification: Detecting and recognizing markers with distinct IDs using onboard camera systems.
