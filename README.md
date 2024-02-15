@@ -191,3 +191,63 @@ move_base_goal.target_pose.pose = Pose(Point(goal.x, goal.y, 0), Quaternion(0, 0
 ```
 This script highlights the robot's capability to navigate autonomously to specified waypoints, showcasing the integration of ROS action servers with the navigation stack for effective path planning and execution.
 
+
+# Pseudocode for Autonomous Robot Navigation and Marker Identification
+
+# Initialize ROSPlan with PDDL files
+initialize_rosplan_with_pddl()
+
+# Generate problem
+problem_generated = generate_problem_request()
+if not problem_generated:
+    raise Exception("Error in problem generation")
+
+# Generate plan
+plan_generated = generate_plan_request()
+if not plan_generated:
+    raise Exception("Error in plan generation")
+
+# Parse plan
+plan_parsed = parse_plan_request()
+if not plan_parsed:
+    raise Exception("Error in parsing plan")
+
+# Dispatch plan
+goal_achieved = dispatch_plan_request()
+
+# Start actions if goal is achieved
+if goal_achieved:
+    start_actions()
+
+    while True:  # This loop continues until all markers are found or an error occurs
+        # Set the next waypoint as the target
+        target = set_next_waypoint()
+
+        # Send the goal to MoveBase
+        send_goal_to_movebase(target)
+
+        # Drive the robot towards the waypoint
+        drive_robot_to_waypoint()
+
+        # If the robot doesn't find the marker, correct its trajectory
+        if not find_the_marker():
+            correct_trajectory_with_gmapping()
+
+        # If the marker is found, set it as found
+        if find_the_marker():
+            set_marker_as_found()
+
+            # Check if there are more markers to find
+            if not more_markers_to_find():
+                # If no more markers, go back to the start
+                go_back_to_start()
+                break  # End the loop if all markers are found
+
+# If any step fails, an error should be raised
+else:
+    raise Exception("Failed to achieve the goal")
+
+# End of the operation
+end()
+
+
