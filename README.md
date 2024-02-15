@@ -17,7 +17,7 @@ The primary objectives of this project include:
 •	Return to Start: Ensuring the robot can return to its starting point after completing its tasks.
 # Application Scenario
 The robot operates in a predefined area where it must locate and identify markers placed at various locations. This scenario tests the robot's ability to combine perception, planning, and movement to perform tasks that would be valuable in real-world applications such as search and rescue, surveillance, and autonomous delivery systems.
-
+![ENV Image](Images-Video/ENV.PNG)
 
 # Running the Simulation
 To initiate the simulation, you will need to install the necessary dependencies for planning and navigation.
