@@ -116,7 +116,7 @@ The rosbot.launch file is configured to set up all necessary nodes, topics, and 
 By running this launch file, you're bringing the mobile robot to life, enabling it to navigate the virtual space, recognize markers, and perform tasks as dictated by the action plan. This holistic approach simulates a real-world application where the robot's autonomy is crucial.
 
 
-# Code Explanation and Flowchart
+# Code Explanation and Pseudocode
 
 ## DecisionMakerNode.py Overview
 This script functions as the central decision-making unit, guiding the robot through navigation and marker detection. It dynamically adjusts the robot's actions based on environmental feedback and predefined objectives.
