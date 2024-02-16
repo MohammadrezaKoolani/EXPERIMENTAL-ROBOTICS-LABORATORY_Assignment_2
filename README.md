@@ -4,7 +4,7 @@
 | ------------ | ------------ | ------------ |
 | Mohammadreza  | Koolani   | S5467640  |
 |  Shima |  Amiri Fard | S5269794  |
-|Reza   | Taleshi  |   | S5029729  |
+|  Shima |  Amiri Fard | S5269794  |
 | Mohammad  |Sabouri   | S5659227  |
 
 
