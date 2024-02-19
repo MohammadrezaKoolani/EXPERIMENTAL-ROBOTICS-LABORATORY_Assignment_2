@@ -295,3 +295,21 @@ if goal_achieved:
  end()
 
 ```
+
+# Simulation Showcase
+## Capturing the Robot's Journey in Gazebo
+After meticulously setting up the environment and initializing our autonomous navigation and marker identification tasks, we captured the essence of our robot's journey through a dynamic video simulation. This video serves as a visual testament to the capabilities and performance of our robot within the Gazebo simulation environment, highlighting the successful execution of planned tasks and the robot's interaction with its surroundings.
+
+## Highlights of the Simulation:
+- **Autonomous Navigation**: Witness the seamless navigation of our robot as it moves through the simulated environment, showcasing its ability to avoid obstacles and efficiently reach its targets.
+- **Marker Identification**: Observe the robot's precision in detecting and identifying markers placed within the environment, a key aspect of our project's objectives.
+- **Dynamic Environment Interaction**: The simulation provides a close look at how the robot adjusts its strategies in real-time to the changing conditions of the simulated world.
+- ** ROS and Gazebo Integration:** The video underscores the integration of ROS functionalities with the Gazebo simulation platform, demonstrating the practical application of our project in a controlled, virtual setting.
+
+The video is an integral part of our project documentation, offering a visual representation of our robot's capabilities and the effectiveness of our design and implementation strategies. It not only validates our work but also serves as an engaging way to demonstrate the potential applications of our project in real-world scenarios.
+
+
+
+
+https://github.com/MohammadrezaKoolani/EXPERIMENTAL-ROBOTICS-LABORATORY_Assignment_2/assets/37951669/16adb314-30b8-48cf-8af1-55df17edfd81
+
