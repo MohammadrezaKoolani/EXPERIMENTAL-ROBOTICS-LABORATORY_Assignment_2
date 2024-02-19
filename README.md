@@ -33,7 +33,7 @@ cd ~/RosBot_ws
 catkin_make
 ```
 
-This process establishes the catkin_ws folder, initializes it with a src directory for your packages, and runs catkin_make to configure the workspace. After executing these commands, your workspace will include devel and build directories. The devel directory contains several setup.*sh scripts.
+This process establishes the RosBot_ws folder, initializes it with a src directory for your packages, and runs catkin_make to configure the workspace. After executing these commands, your workspace will include devel and build directories. The devel directory contains several setup.*sh scripts.
 
 ## Configure the ROS Environment:
 
@@ -122,7 +122,7 @@ To equip your robot with SLAM capabilities, proceed to install gmapping with the
 
 ### Understanding Gmapping
 Gmapping provides your robot with Simultaneous Localization and Mapping (SLAM) abilities, allowing it to construct a map of an unknown environment while simultaneously keeping track of its location within it. This functionality is crucial for autonomous navigation where the environment is not predefined.
-Once you have installed the necessary packages, compile your workspace with catkin_make from the root of your catkin_ws folder.
+Once you have installed the necessary packages, compile your workspace with catkin_make from the root of your RosBot_ws folder.
 
 **Note**: Should you encounter any issues during compilation, particularly with the amcl package conflicting with gmapping, you can resolve this by removing the amcl package from your navigation stack and rerunning the catkin_make command. 
 
