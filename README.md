@@ -20,6 +20,36 @@ The primary objectives of this project include:
 The robot operates in a predefined area where it must locate and identify markers placed at various locations. This scenario tests the robot's ability to combine perception, planning, and movement to perform tasks that would be valuable in real-world applications such as search and rescue, surveillance, and autonomous delivery systems.
 ![ENV Image](Images-Video/ENV.PNG)
 
+# Initializing a Catkin Workspace
+A workspace is a folder structure used for developing ROS (Robot Operating System) packages. To set up your own workspace named RosBot_ws, follow these steps in your terminal:
+
+## Create the Workspace:
+
+Run the commands below to create a new directory named RosBot_ws in your home directory, alongside a src directory within it. This src folder is where your Catkin packages will reside.
+
+```shell
+mkdir -p ~/RosBot_ws/src
+cd ~/RosBot_ws
+catkin_make
+```
+
+This process establishes the catkin_ws folder, initializes it with a src directory for your packages, and runs catkin_make to configure the workspace. After executing these commands, your workspace will include devel and build directories. The devel directory contains several setup.*sh scripts.
+
+## Configure the ROS Environment:
+
+To integrate this workspace with your ROS environment, you'll need to source the setup.bash script from the devel folder. Execute the following command from your home directory:
+
+```shell
+source ~/RosBot_ws/devel/setup.bash
+```
+
+To ensure your workspace is automatically overlayed on your ROS environment in all future terminal sessions, append the source command to your .bashrc file. Access and edit this file by running:
+
+gedit ~/.bashrc
+
+Add the line source ~/RosBot_ws/devel/setup.bash below the existing ROS source line in .bashrc.
+
+These steps will configure your workspace (RosBot_ws) for ROS package development, ensuring it is properly integrated with your ROS environment.
 # Running the Simulation
 To initiate the simulation, you will need to install the necessary dependencies for planning and navigation.
 Begin by navigating to the src folder within your ROS workspace. Install the dependencies for aruco_ros and rosbot_ros with the following commands:
